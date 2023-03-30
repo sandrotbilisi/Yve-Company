@@ -7,7 +7,7 @@ function App() {
     <>
       <Navbar />
       <Home />
-      <FaBeer />
+      
     </>
   )
 }
