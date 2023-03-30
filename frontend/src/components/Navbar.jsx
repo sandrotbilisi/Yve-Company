@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { FaUserAlt, FaOpencart, FaShoppingCart, FaSearch } from 'react-icons/fa';
 
 export default function Navbar() {
