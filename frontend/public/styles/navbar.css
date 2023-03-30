@@ -11,8 +11,18 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: black !important;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    transition: 0.5s all;
 }
+
+nav:hover{
+    background-color: black;
+    transition: 0.5s all;
+
+}
+
 nav li{
     list-style: none;
     display: inline-block;
@@ -57,5 +67,5 @@ nav li a{
 
 .icons{
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
