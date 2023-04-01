@@ -1,14 +1,15 @@
 import React from 'react'
+import { FaUserAlt, FaShoppingCart, FaSearch } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
-import { FaUserAlt, FaOpencart, FaShoppingCart, FaSearch } from 'react-icons/fa';
 
 export default function Navbar() {
   return (
   <nav>
-    <span className="yve">ივერსი</span>
+    <span className="yve">YverseY</span>
     <div className='center'>
         <li>
-          <a href="#">მაღაზია</a>
+          <Link to={'explore'}>მაღაზია</Link>
         </li>
         <li>
           <a href="#">დახმარება</a>
