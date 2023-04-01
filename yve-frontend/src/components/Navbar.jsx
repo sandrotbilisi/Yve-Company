@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaUserAlt, FaShoppingCart, FaSearch } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 export default function Navbar() {
@@ -9,7 +9,8 @@ export default function Navbar() {
     <span className="yve">YverseY</span>
     <div className='center'>
         <li>
-          <Link to={'explore'}>მაღაზია</Link>
+          {/* <Link to={'explore'}>მაღაზია</Link> */}
+          <a href="#">მაღაზია</a>
         </li>
         <li>
           <a href="#">დახმარება</a>
