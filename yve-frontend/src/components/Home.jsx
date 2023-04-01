@@ -26,7 +26,12 @@ export default function Home() {
       loop
       muted
       ></video></SwiperSlide>
+    <div className='VideoTxt'>
+      <span className='slogan'>თქვენი მეგზური ციფრულ სამყაროში</span>
+      <button className='explore'>კატალოგი</button> 
+    </div>
     </Swiper>
+
     
     </div>
   )
