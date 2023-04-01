@@ -29,6 +29,7 @@ export default function Home() {
     <div className='VideoTxt'>
       <span className='slogan'>თქვენი მეგზური ციფრულ სამყაროში</span>
       <button className='explore'>კატალოგი</button> 
+      <input className='searchTerm' type="text" />
     </div>
     </Swiper>
 
