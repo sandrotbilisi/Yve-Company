@@ -5,7 +5,7 @@ export default function Explore() {
 
     <div>
       <span className='slogan'>თქვენი მეგზური ციფრულ სამყაროში</span>
-      <button className='explore'>კატალოგი</button>
+      <button className='explore'>კატალოგიddddd</button>
       
       </div>
   )
