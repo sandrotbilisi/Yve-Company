@@ -27,6 +27,7 @@ export default function Home() {
       muted
       ></video></SwiperSlide>
     </Swiper>
+    
     </div>
   )
 }

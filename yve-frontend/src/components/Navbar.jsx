@@ -6,7 +6,7 @@ import { FaUserAlt, FaShoppingCart, FaSearch } from 'react-icons/fa';
 export default function Navbar() {
   return (
   <nav>
-    <span className="yve">YverseY</span>
+    <span className="yve">ივერსი</span>
     <div className='center'>
         <li>
           {/* <Link to={'explore'}>მაღაზია</Link> */}
@@ -24,6 +24,7 @@ export default function Navbar() {
       <FaShoppingCart className='icon' />
       <FaSearch className='icon' />
     </li>
+    
   </nav>
   )
 }

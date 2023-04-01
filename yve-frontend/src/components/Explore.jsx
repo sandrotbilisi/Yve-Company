@@ -2,6 +2,11 @@ import React from 'react'
 
 export default function Explore() {
   return (
-    <div>Explore</div>
+
+    <div>
+      <span className='slogan'>თქვენი მეგზური ციფრულ სამყაროში</span>
+      <button className='explore'>კატალოგი</button>
+      
+      </div>
   )
 }
